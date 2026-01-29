@@ -3,7 +3,6 @@ import "dotenv/config";
 import { ENV } from './config/env.js';
 import { db } from './config/db.js';
 import { favoritesTable } from './db/schema.js';
-import { parse } from 'dotenv';
 import { eq, and } from 'drizzle-orm';
 import job from './config/cron.js';
 
